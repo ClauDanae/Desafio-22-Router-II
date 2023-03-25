@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+
+}
+
+.active {
+  color: rgb(8, 248, 28);
+}
+
+.inactive {
+  color: white
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(157, 167, 135);
+  padding: 30px 30px;
+  margin-top: 50px;
+  border: solid 5px black
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(180, 179, 179);
+  padding: 30px 30px;
+  margin-top: 50px;
+  border: solid 5px black
+}
+
+.mainImage {
+  width: 300px;
+}
+
+.titleView {
+  margin-bottom: 25px;
+}
+
+.button {
+  margin-top: 40px;
+}
+
+.card {
+  margin: 20px;
+  padding: 20px;
+}
